@@ -18,9 +18,11 @@ The problem might be close to your Mac, at the router or further along the conne
 
 **Your Mac → Wi-Fi → router → provider → VPN → internet**
 
-| Locate | Try | Compare |
-| --- | --- | --- |
-| Inspect where the connection becomes unreliable. | Apply a relevant local adjustment. | Check the result and undo a change that did not help. |
+**Locate.** Inspect where the connection becomes unreliable.
+
+**Try.** Apply a relevant local adjustment.
+
+**Compare.** Check the result and undo a change that did not help.
 
 The screen above shows that principle in practice: an adjustment did not help, so Qav turned it off. A convincing result needs a before and an after, rather than a button that simply says “optimise.”
 
