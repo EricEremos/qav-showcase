@@ -1,40 +1,45 @@
 <p align="center"><strong>QAV</strong></p>
 
-<h1 align="center">Find where your connection<br>gets tangled.</h1>
+<h1 align="center">Follow the connection.<br>See what changes.</h1>
 
-<p align="center">A Mac connection companion that measures first and shows what changed.</p>
+<p align="center">A Mac connection companion that measures first and compares the result.</p>
 
 <p align="center"><a href="#follow-the-line">See how it works</a> · <a href="#development-status">Development status</a></p>
 
-<p align="center"><img src="assets/qav-campaign-01-final-20261023.png" alt="Find the weak link: the actual Qav app shows this Mac’s connection route and the result of a local adjustment" width="100%"></p>
+<p align="center"><img src="assets/qav-campaign-01-final-20261023.png" alt="Qav campaign with an actual installed-app capture showing this Mac's connection route and the result of a local adjustment." width="100%"></p>
 
-<p align="center"><sub>Actual installed-app capture, 19 October 2026. These readings illustrate one connection, not a promised performance improvement.</sub></p>
+## “The internet is slow” is a starting point
 
-## “The internet is slow” is only the beginning.
-
-The problem might be close to your Mac, at the router or further along the connection. Qav makes that route visible, so a vague frustration becomes something you can investigate.
+The problem might be close to your Mac, at the router or further along the connection. Qav makes that route visible, giving you somewhere to begin investigating.
 
 ## Follow the line
 
 **Your Mac → Wi-Fi → router → provider → VPN → internet**
 
-**Locate.** Inspect where the connection becomes unreliable.
+**Inspect the route.** Look at the connection and where it may be struggling.
 
-**Try.** Apply a relevant local adjustment.
+**Try a relevant change.** Apply an adjustment the Mac can control.
 
-**Compare.** Check the result and undo a change that did not help.
+**Compare what happened.** Check the result and undo a change that did not help.
 
-The screen above shows that principle in practice: an adjustment did not help, so Qav turned it off. A convincing result needs a before and an after, rather than a button that simply says “optimise.”
+The capture above shows that last step: a local adjustment did not help, so Qav turned it off. The useful part is the comparison—what changed, and whether it was worth keeping.
 
-## Measure the line. Be honest about the rest.
+## A change should earn its place
 
-I am building Qav around a practical boundary: improve what the Mac can control and explain what it cannot. It cannot create bandwidth your provider does not supply or repair a remote service.
+I am building Qav around a practical boundary: investigate what the Mac can measure, adjust what it can control and explain the rest. It cannot create bandwidth your provider does not supply or repair a remote service.
 
-The work combines native Mac interface design, connection diagnostics and a feedback loop in which a change has to earn its place.
+My work connects native Mac interface design, connection diagnostics and this feedback loop. Showing that a change did not help is part of the product, too.
 
 ## Development status
 
-Qav is in development. This is a product preview, with a dated app capture; it is not a public download or a guarantee of faster internet. The private implementation and local connection records are not published here.
+Qav is in development. A public download is not available here. Its implementation and local connection records remain private.
+
+<details>
+<summary>About the capture and readings</summary>
+
+The campaign uses an actual installed-app capture from **19 October 2026**. The readings and adjustment result describe one observed connection. They are not a guarantee of faster internet or a diagnosis of another network.
+
+</details>
 
 ---
 
