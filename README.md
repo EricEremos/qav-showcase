@@ -6,7 +6,7 @@
 
 <p align="center"><a href="#follow-the-line">See how it works</a> · <a href="#development-status">Development status</a></p>
 
-<p align="center"><img src="assets/connection-status.png" alt="Qav Status screen showing the connection from this Mac through Wi-Fi, router, provider and VPN to the internet" width="100%"></p>
+<p align="center"><img src="assets/qav-campaign-01-20261023.png" alt="Find the weak link: the actual Qav app shows this Mac’s connection route and the result of a local adjustment" width="100%"></p>
 
 <p align="center"><sub>Actual installed-app capture, 19 October 2026. These readings illustrate one connection, not a promised performance improvement.</sub></p>
 
