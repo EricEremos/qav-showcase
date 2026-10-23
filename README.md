@@ -8,6 +8,14 @@
 
 <p align="center"><img src="assets/qav-campaign-01-final-20261023.png" alt="Qav campaign with an actual installed-app capture showing this Mac's connection route and the result of a local adjustment." width="100%"></p>
 
+## Watch the product film
+
+<p align="center"><a href="assets/qav-promo-20261024.mp4"><img src="assets/qav-promo-20261024.gif" alt="Qav film with the original installed-app connection screen: a local AirDrop adjustment did not help and was turned off. The animated knot is a visual metaphor." width="100%"></a></p>
+
+[Watch the full MP4](assets/qav-promo-20261024.mp4) · [Open the still frame](assets/qav-promo-20261024-poster.png) · [Capture and production details](assets/qav-promo-20261024-manifest.json)
+
+In development; no public download yet. The installed-app screen was captured on 19 October 2026 and describes one connection. Pausing AirDrop did not help in this sample, so Qav turned that adjustment off. The animated knot is a brand metaphor, not evidence of a diagnosis or successful repair.
+
 ## “The internet is slow” is a starting point
 
 The problem might be close to your Mac, at the router or further along the connection. Qav makes that route visible, giving you somewhere to begin investigating.

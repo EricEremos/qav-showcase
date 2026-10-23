@@ -1,0 +1,67 @@
+{
+  "product": "Qav",
+  "edition": "2026-10-24",
+  "film": {
+    "duration_seconds": 24.0,
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "audio": "silent"
+  },
+  "production": {
+    "visual_author": "Claude delivery, supplied 24 October 2026",
+    "integration": "Codex removed administrative on-screen provenance footers; real UI and material caveats retained.",
+    "transformations": [
+      "framing",
+      "cropping",
+      "scaling",
+      "camera motion",
+      "marketing type",
+      "illustrative animation"
+    ],
+    "ui_policy": "Real UI source pixels are not repainted. Overlays and composition do not imply observed interaction."
+  },
+  "capture_dates": {
+    "installed app capture": "2026-10-19"
+  },
+  "sources_sha256": {
+    "qav-showcase@5e185b3:assets/connection-status.png": "3201983cef8e549caaf7b570d853a877505a0f97da2c5519e896419501b881c9"
+  },
+  "context": "In development; no public download yet. The installed-app screen was captured on 19 October 2026 and describes one connection. Pausing AirDrop did not help in this sample, so Qav turned that adjustment off. The animated knot is a brand metaphor, not evidence of a diagnosis or successful repair.",
+  "limits": [
+    "One observed connection does not diagnose another network or guarantee faster internet.",
+    "Qav cannot create provider bandwidth or repair a remote service.",
+    "Implementation and local connection records remain private."
+  ],
+  "verification": {
+    "full_mp4_decode": "passed",
+    "decoded_frames": 576,
+    "source_pixel_checks": [
+      {
+        "t": 7.5,
+        "source": "qav-connection-status-5e185b3.png",
+        "pixel_identical_visible_region": true
+      },
+      {
+        "t": 16.5,
+        "source": "qav-connection-status-5e185b3.png",
+        "pixel_identical_visible_region": true
+      }
+    ],
+    "scope": "Checks attest decoded media and sampled source-pixel preservation, not product efficacy."
+  },
+  "assets": {
+    "assets/qav-promo-20261024.gif": {
+      "bytes": 2753442,
+      "sha256": "4fce24732588a4366479ab90f4c88f368f0166eed77aeebd1803f7d93695a6a4"
+    },
+    "assets/qav-promo-20261024.mp4": {
+      "bytes": 551547,
+      "sha256": "622546897706651dd0353f47ecd271bd937baf9bbc363b558d5413d6f27e5247"
+    },
+    "assets/qav-promo-20261024-poster.png": {
+      "bytes": 245553,
+      "sha256": "7254cb11bca184a76c4e4196d9664aff607cef28644d432d15edbea021dfabeb"
+    }
+  }
+}
