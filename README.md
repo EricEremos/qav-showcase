@@ -10,11 +10,11 @@
 
 ## Watch the product film
 
-<p align="center"><a href="assets/qav-promo-20261024.mp4"><img src="assets/qav-promo-20261024.gif" alt="Qav film with the original installed-app connection screen: a local AirDrop adjustment did not help and was turned off. The animated knot is a visual metaphor." width="100%"></a></p>
+<p align="center"><a href="assets/qav-promo-20261024.mp4"><img src="assets/qav-promo-20261024.gif" alt="Qav film: one cord runs from This Mac to the Internet. Qav's own panels move through Dropping, Fixing and a result to check, then list its fixes; a fix that doesn't help is turned off." width="100%"></a></p>
 
-[Watch the full MP4](assets/qav-promo-20261024.mp4) · [Open the still frame](assets/qav-promo-20261024-poster.png) · [Capture and production details](assets/qav-promo-20261024-manifest.json)
+[Watch the full film (MP4)](assets/qav-promo-20261024.mp4) · [Open the still frame](assets/qav-promo-20261024-poster.png) · [Capture and production details](assets/qav-promo-20261024-manifest.json)
 
-In development; no public download yet. The installed-app screen was captured on 19 October 2026 and describes one connection. Pausing AirDrop did not help in this sample, so Qav turned that adjustment off. The animated knot is a brand metaphor, not evidence of a diagnosis or successful repair.
+In development; no public download yet. The panels are snapshot states of the installed app with a sample connection. Qav tries a fix you can undo, and turns off a fix that doesn't help, as the 19 October 2026 capture above shows. No speed increase is promised.
 
 ## “The internet is slow” is a starting point
 

@@ -1,67 +1,35 @@
 {
-  "product": "Qav",
-  "edition": "2026-10-24",
-  "film": {
-    "duration_seconds": 24.0,
-    "width": 1280,
-    "height": 720,
-    "fps": 24,
-    "audio": "silent"
+ "product": "qav",
+ "edition": "2026-10-24 (latest film)",
+ "film": {
+  "duration_seconds": 23.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "audio": "silent",
+  "readme_loop": "the full film"
+ },
+ "production": {
+  "visual_author": "Claude, HyperFrames (HTML and GSAP rendered in Chrome)",
+  "principle": "Original product interface pixels are scaled, cropped and moved; campaign type and motion sit around them. No on-screen provenance labels; qualifications live here and beside the film."
+ },
+ "qualification": "In development; no public download yet. The panels are snapshot states of the installed app with a sample connection. Qav tries a fix you can undo, and turns off a fix that doesn't help, as the 19 October 2026 capture above shows. No speed increase is promised.",
+ "sources": "Qav --snapshot states from the installed app (commit 62698a2) with a sample connection; Status capture 19 Oct 2026 at qav-showcase 5e185b3 assets/connection-status.png.",
+ "files": {
+  "mp4": {
+   "path": "assets/qav-promo-20261024.mp4",
+   "bytes": 627281,
+   "sha256": "ca1adca1aeeba1ec29deae466963fa794dfb31025a55112d2b6f2a678be16eeb"
   },
-  "production": {
-    "visual_author": "Claude delivery, supplied 24 October 2026",
-    "integration": "Codex removed administrative on-screen provenance footers; real UI and material caveats retained.",
-    "transformations": [
-      "framing",
-      "cropping",
-      "scaling",
-      "camera motion",
-      "marketing type",
-      "illustrative animation"
-    ],
-    "ui_policy": "Real UI source pixels are not repainted. Overlays and composition do not imply observed interaction."
+  "gif": {
+   "path": "assets/qav-promo-20261024.gif",
+   "bytes": 1237497,
+   "sha256": "74b8f57864755d9d007ad98a5f6318e11454252c5dd2d5dab8ba29c6353348ed"
   },
-  "capture_dates": {
-    "installed app capture": "2026-10-19"
-  },
-  "sources_sha256": {
-    "qav-showcase@5e185b3:assets/connection-status.png": "3201983cef8e549caaf7b570d853a877505a0f97da2c5519e896419501b881c9"
-  },
-  "context": "In development; no public download yet. The installed-app screen was captured on 19 October 2026 and describes one connection. Pausing AirDrop did not help in this sample, so Qav turned that adjustment off. The animated knot is a brand metaphor, not evidence of a diagnosis or successful repair.",
-  "limits": [
-    "One observed connection does not diagnose another network or guarantee faster internet.",
-    "Qav cannot create provider bandwidth or repair a remote service.",
-    "Implementation and local connection records remain private."
-  ],
-  "verification": {
-    "full_mp4_decode": "passed",
-    "decoded_frames": 576,
-    "source_pixel_checks": [
-      {
-        "t": 7.5,
-        "source": "qav-connection-status-5e185b3.png",
-        "pixel_identical_visible_region": true
-      },
-      {
-        "t": 16.5,
-        "source": "qav-connection-status-5e185b3.png",
-        "pixel_identical_visible_region": true
-      }
-    ],
-    "scope": "Checks attest decoded media and sampled source-pixel preservation, not product efficacy."
-  },
-  "assets": {
-    "assets/qav-promo-20261024.gif": {
-      "bytes": 2753442,
-      "sha256": "4fce24732588a4366479ab90f4c88f368f0166eed77aeebd1803f7d93695a6a4"
-    },
-    "assets/qav-promo-20261024.mp4": {
-      "bytes": 551547,
-      "sha256": "622546897706651dd0353f47ecd271bd937baf9bbc363b558d5413d6f27e5247"
-    },
-    "assets/qav-promo-20261024-poster.png": {
-      "bytes": 245553,
-      "sha256": "7254cb11bca184a76c4e4196d9664aff607cef28644d432d15edbea021dfabeb"
-    }
+  "poster": {
+   "path": "assets/qav-promo-20261024-poster.png",
+   "bytes": 453587,
+   "sha256": "8098e0d4022345161585b00230704fb4281d3b1c650d213a7519e50eca708dd9"
   }
+ }
 }
