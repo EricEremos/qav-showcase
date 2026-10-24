@@ -6,9 +6,9 @@
 
 <p align="center"><a href="#follow-the-line">See how it works</a> · <a href="#development-status">Development status</a></p>
 
-<p align="center"><a href="assets/qav-promo-20261024.mp4"><img src="assets/qav-promo-20261024.gif" alt="Qav film: one cord runs from This Mac to the Internet. Qav's own panels move through Dropping, Fixing and a result to check, then list its fixes; a fix that doesn't help is turned off." width="100%"></a></p>
+<p align="center"><a href="assets/qav-promo-20261024.mp4"><img src="assets/qav-promo-20261024.gif" alt="Qav film: the cord from this Mac to the internet fills the frame. A knot pulls tight at Wi-Fi; Qav's Status screen cuts in showing Wi-Fi dropped 5 times in 24 hours, then that pausing AirDrop didn't help and was turned off. It ends on Qav's lit mark." width="100%"></a></p>
 
-<p align="center"><sub>In development; no public download yet. The panels are snapshot states of the installed app with a sample connection. Qav tries a fix you can undo, and turns off a fix that doesn't help, as the 19 October 2026 capture above shows. No speed increase is promised.</sub><br><a href="assets/qav-promo-20261024.mp4">Watch the full film</a> · <a href="assets/qav-promo-20261024-poster.png">Still frame</a> · <a href="assets/qav-promo-20261024-manifest.json">Capture details</a></p>
+<p align="center"><sub>Diagnosis only. Animated product screenshot of Qav's Status screen as published in this repository; the large cord is brand animation. The captured adjustment did not help and was turned off; no fix or speed-up is promised.</sub><br><a href="assets/qav-promo-20261024.mp4">Watch the full film</a> · <a href="assets/qav-promo-20261024-poster.png">Still frame</a> · <a href="assets/qav-promo-20261024-manifest.json">Capture details</a></p>
 
 ## “The internet is slow” is a starting point
 
