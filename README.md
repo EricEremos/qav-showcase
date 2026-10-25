@@ -6,9 +6,9 @@
 
 <p align="center"><a href="#follow-the-line">See how it works</a> · <a href="#development-status">Development status</a></p>
 
-<p align="center"><a href="assets/qav-promo-20261024.mp4"><img src="assets/qav-promo-20261024.gif" alt="Qav film: the cord from this Mac to the internet fills the frame. A knot pulls tight at Wi-Fi; Qav's Status screen cuts in showing Wi-Fi dropped 5 times in 24 hours, then that pausing AirDrop didn't help and was turned off. It ends on Qav's lit mark." width="100%"></a></p>
+<p align="center"><a href="assets/qav-promo-20261024.mp4"><img src="assets/qav-promo-20261024.gif" alt="Qav film, a whodunit about a frozen video call: Wi-Fi, Router, Provider and VPN line up as suspects, Qav checks every link (Router 0% loss, Provider 0% loss, VPN 58 ms), the Wi-Fi shows 5 drops in 24 hours on Qav's real Status screen, which also notes that pausing AirDrop didn't help. It ends: Stop guessing." width="100%"></a></p>
 
-<p align="center"><sub>Diagnosis only. Animated product screenshot of Qav's Status screen as published in this repository; the large cord is brand animation. The captured adjustment did not help and was turned off; no fix or speed-up is promised.</sub><br><a href="assets/qav-promo-20261024.mp4">Watch the full film</a> · <a href="assets/qav-promo-20261024-poster.png">Still frame</a> · <a href="assets/qav-promo-20261024-manifest.json">Capture details</a></p>
+<p align="center"><sub>Diagnosis only; no fix or speed-up is promised. Animated product screenshot of Qav's Status screen as published in this repository; the readings come from that one capture. The person on the call is a generated campaign photo, the call and the theories are a dramatisation, and the cord and suspect cards are brand animation.</sub><br><a href="assets/qav-promo-20261024.mp4">Watch the full film</a> · <a href="assets/qav-promo-20261024-poster.png">Still frame</a> · <a href="assets/qav-promo-20261024-manifest.json">Capture details</a></p>
 
 ## “The internet is slow” is a starting point
 
