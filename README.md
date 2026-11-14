@@ -1,47 +1,61 @@
 <p align="center"><strong>QAV</strong></p>
 
-<h1 align="center">Follow the connection.<br>See what changes.</h1>
+<h1 align="center">Measure the line.<br>Straighten what's yours.</h1>
 
-<p align="center">A Mac connection companion that measures first and compares the result.</p>
+<p align="center">A Mac menu bar app that reads your whole connection as one line, fixes the parts this Mac can fix, and checks every fix on and off.</p>
 
-<p align="center"><a href="#follow-the-line">See how it works</a> · <a href="#development-status">Development status</a></p>
+<p align="center"><a href="#one-line-from-this-mac-to-the-web">See how it works</a> · <a href="#development-status">Development status</a></p>
 
-<p align="center"><a href="assets/qav-promo-20261024.mp4"><img src="assets/qav-promo-20261024.gif" alt="Qav film, a whodunit about a frozen video call: Wi-Fi, Router, Provider and VPN line up as suspects, Qav checks every link (Router 0% loss, Provider 0% loss, VPN 58 ms), the Wi-Fi shows 5 drops in 24 hours on Qav's real Status screen, which also notes that pausing AirDrop didn't help. It ends: Stop guessing." width="100%"></a></p>
+<p align="center"><a href="assets/qav-promo-20261114.mp4"><img src="assets/qav-promo-20261114.gif" alt="Qav film: in the dark, the app's own opening straightens a tangled cord with its amber lamp until one loop is left. The menu bar panel reads Slow, with the loop at the provider. Fixing: sending calls first; the loop unties and the whole line lights. Fixed: 240 to 24 ms. The Fixes table shows what was kept and what turned itself off, and the cap row says what is not this Mac's to fix. It ends on qav. with its lamp: Qav means line." width="100%"></a></p>
 
-<p align="center"><sub>Diagnosis only; no fix or speed-up is promised. Animated product screenshot of Qav's Status screen as published in this repository; the readings come from that one capture. The person on the call is a generated campaign photo, the call and the theories are a dramatisation, and the cord and suspect cards are brand animation.</sub><br><a href="assets/qav-promo-20261024.mp4">Watch the full film</a> · <a href="assets/qav-promo-20261024-poster.png">Still frame</a> · <a href="assets/qav-promo-20261024-manifest.json">Capture details</a></p>
+<p align="center"><sub>Every picture in the film is drawn by Qav itself from its newest code (10 November 2026), with the app's built-in sample data; the figures are sample readings, not a measurement of a real line.</sub><br><a href="assets/qav-promo-20261114.mp4">Watch the full film</a> · <a href="assets/qav-promo-20261114-poster.png">Still frame</a> · <a href="assets/qav-promo-20261114-manifest.json">Capture details</a></p>
 
-## “The internet is slow” is a starting point
+## One line, from this Mac to the web
 
-The problem might be close to your Mac, at the router or further along the connection. Qav makes that route visible, giving you somewhere to begin investigating.
+**This Mac → Wi-Fi → router → provider → VPN → internet**
 
-<p align="center"><img src="assets/qav-campaign-01-final-20261023.png" alt="Qav campaign with an actual installed-app capture showing this Mac's connection route and the result of a local adjustment." width="100%"></p>
+Qav reads the connection as one line and shows where it bends. A bend is a loop in shadow; a handled stretch runs straight and lit. The verdict is one word and a lamp: *Fine.* *Slow.* *Fixed.*
 
-## Follow the line
+<p align="center">
+  <img src="assets/qav-panel-slow-20261114.png" width="300" alt="Qav's menu bar panel: Slow. Studio Wi-Fi. The line from This Mac to the internet with a loop at the provider. At Provider, latency 240 ms: 18 ms without a download, 240 ms during one. Downloads line up ahead of your calls, so calls wait. Fix now turns on Calls first; you can undo it any time." />
+  &nbsp;&nbsp;
+  <img src="assets/qav-panel-fixed-20261114.png" width="300" alt="Qav's menu bar panel after the fix: Fixed. The whole line lit. Downloads no longer hold up your calls. 240 to 24 ms. Undo, See results." />
+</p>
 
-**Your Mac → Wi-Fi → router → provider → VPN → internet**
+<p align="center"><sub>The menu bar panel before and after one fix, drawn by the app with its sample data.</sub></p>
 
-**Inspect the route.** Look at the connection and where it may be struggling.
+## Straighten what's yours
 
-**Try a relevant change.** Apply an adjustment the Mac can control.
+Qav fixes only what is on this Mac, and each fix can be undone:
 
-**Compare what happened.** Check the result and undo a change that did not help.
+| Fix | What it does |
+|---|---|
+| **Speed limit** | Holds this Mac's traffic just under the plan's cap, so the queue stays short and on this Mac. |
+| **Calls first** | Keeps the queue short and gives calls and video a small lane of their own. |
+| **DNS repair** | Sends only the names your network misroutes to another resolver. |
+| **Pause AirDrop** | Pauses the radio that makes Wi-Fi hop channels while it is on. |
+| **Use iPhone data** | Sends this Mac's traffic over a USB iPhone, up to a daily limit. |
 
-The capture above shows that last step: a local adjustment did not help, so Qav turned it off. The useful part is the comparison—what changed, and whether it was worth keeping.
+## Every fix is checked, on and off
 
-## A change should earn its place
+**Proof** measures each fix off and on, on your Mac. A fix that does not help turns itself off, and Qav says so.
 
-I am building Qav around a practical boundary: investigate what the Mac can measure, adjust what it can control and explain the rest. It cannot create bandwidth your provider does not supply or repair a remote service.
+<p align="center"><img src="assets/qav-fixes-20261114.png" width="100%" alt="Qav's Fixes window: five ways Qav fixes what's on this Mac, each checked on and off. Speed limit, packet loss 8 to 0.6 percent, kept, it helps here. Calls first, lag under load 410 to 160 ms, kept. DNS repair, misrouted names 3 to 0, off. Pause AirDrop, slowest Wi-Fi replies 31 to 29 ms, turned off here: it didn't help; Qav tries it again 30 Oct. Use iPhone data needs an iPhone sharing its connection."></p>
 
-My work connects native Mac interface design, connection diagnostics and this feedback loop. Showing that a change did not help is part of the product, too.
+<p align="center"><sub>The Fixes window, drawn by the app with its sample data.</sub></p>
+
+## Be honest about the rest
+
+What Qav measures but cannot fix, such as a plan's cap or loss inside the provider's network, is listed plainly. Qav does not make a plan faster than it is; it removes what wastes the speed you already have.
 
 ## Development status
 
-Qav is in development. A public download is not available here. Its implementation and local connection records remain private.
+Qav is in development. A public download is not available here, and its implementation and local connection records remain private.
 
 <details>
-<summary>About the capture and readings</summary>
+<summary>About the film and the screens</summary>
 
-The campaign uses an actual installed-app capture from **19 October 2026**. The readings and adjustment result describe one observed connection. They are not a guarantee of faster internet or a diagnosis of another network.
+The film and the screens on this page were rendered on 14 November 2026 by Qav's own snapshot mode and its own line renderer, built from its newest code (10 November 2026), using the sample data the app ships for design checks. The film adds only the dark ground, its lines and the amber rings. No real connection was measured for this page.
 
 </details>
 

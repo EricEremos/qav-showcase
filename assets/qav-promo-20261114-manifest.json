@@ -1,0 +1,32 @@
+{
+ "edition": "2026-11-14 film, built from the product's newest real screens",
+ "film": {
+  "duration_seconds": 28.6,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "audio": "silent",
+  "readme_loop": "0.0-28.6 s of the film",
+  "mp4": "review encode of the master (H.264 CRF 24, faststart)"
+ },
+ "qualification": "Every picture is drawn by Qav itself from its newest code (10 Nov 2026): its window opening, its menu bar panel, its own untie animation, its Fixes table and its wordmark, rendered with the app's built-in sample data. The figures are sample data, not a measurement of a real line.",
+ "note": "",
+ "master_sha256": "2abb51f07a9a1ee495caa2b79468f2b21d308569ce8a5b1400bea7a4779dbe92",
+ "files": {
+  "mp4": {
+   "path": "assets/qav-promo-20261114.mp4",
+   "bytes": 1233840,
+   "sha256": "05d1265834ea2e58e279d7541396133875cbbe9df330d1bd625731a9881542d6"
+  },
+  "gif": {
+   "path": "assets/qav-promo-20261114.gif",
+   "bytes": 1998866,
+   "sha256": "d0862ed432feba7ae069712e331cc9bb86a46e29d9ac5246737eaea3330d6b0f"
+  },
+  "poster": {
+   "path": "assets/qav-promo-20261114-poster.png",
+   "bytes": 248561,
+   "sha256": "00eea2bd5091a8f9bc6fdf9c961f04de28986f3b6b28dd89bd562021fa4bb4ac"
+  }
+ }
+}
